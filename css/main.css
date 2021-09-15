@@ -1,7 +1,28 @@
+body{
+    /* overflow-x: hidden; */
+}
 .logo{
     height: 2em;
     width: 128px;
 }
 .toggle-btn{
     font-size: 2rem;
+}
+.banner-section{
+    border-top: 6rem solid #f8f9fa;
+}
+.banner{
+    border-radius: 3rem;
+}
+.banner-content{
+    padding-top: 4rem;
+    padding-left: 2rem;
+}
+
+.banner-content h1{
+    font-size: 3.4rem;
+}
+.item{
+    height: 7rem;
+    width: 7rem;
 }

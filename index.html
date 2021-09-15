@@ -23,7 +23,7 @@
   </head>
   <body>
     <!-- seart header  -->
-    <header class="">
+    <header class="fixed-top">
       <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container px-5 py-2 d-flex h-25 align-items-center">
           <div>
@@ -34,7 +34,15 @@
             /></a>
           </div>
 
-          <div class="bg-secondary bg-opacity-25 px-4 py-2 rounded-3">
+          <div
+            class="
+              bg-secondary bg-opacity-25
+              px-4
+              py-2
+              rounded-3
+              d-lg-block d-none
+            "
+          >
             <ul class="mb-0 ps-0">
               <li class="d-inline mx-4">
                 <svg
@@ -114,17 +122,130 @@
                 class="form-check-input"
                 type="checkbox"
                 id="flexSwitchCheckChecked"
-                
               />
             </div>
             <button type="button" class="btn btn-dark">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
-                    <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
-                  </svg> Login</button>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-box-arrow-in-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"
+                />
+                <path
+                  fill-rule="evenodd"
+                  d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"
+                />
+              </svg>
+              Login
+            </button>
           </div>
         </div>
       </nav>
     </header>
+    <main>
+      <section class="banner-section">
+        <div class="container bg-light banner">
+          <div class="row banner-content p-4">
+            <div class="col-md-7">
+              <div class="p-3">
+                <h1 class="fw-bold">
+                  <span class="text-danger"> Experience </span> Better Learning.
+                </h1>
+                <p class="text-small">
+                  Choose any topic from class 1-12, Admission Test, University,
+                  Skill Development and enjoy your personalized learning
+                  journey.
+                  <span class="text-danger fw-bold"
+                    >Select your path & start</span
+                  >
+                </p>
+              </div>
+              <div class="">
+                <div class="row row-cols-1 row-cols-md-3 g-5">
+                  <div class="col">
+                    <div
+                      class="
+                        card
+                        d-flex
+                        justify-content-center
+                        align-items-center
+                        p-4
+                      "
+                    >
+                      <img
+                        src="https://10minuteschool.com/assets/images/header/academic.png"
+                        class="card-img-top item"
+                        alt="..."
+                      />
+                      <p class="mb-0 my-2">Class 1-12</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="
+                        card
+                        d-flex
+                        justify-content-center
+                        align-items-center
+                        p-4
+                      "
+                    >
+                      <img
+                        src="https://10minuteschool.com/assets/images/header/admission.png"
+                        class="card-img-top item"
+                        alt="..."
+                      />
+                      <p class="mb-0 my-2">Admission Test</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="
+                        card
+                        d-flex
+                        justify-content-center
+                        align-items-center
+                        p-4
+                      "
+                    >
+                      <img
+                        src="https://10minuteschool.com/assets/images/header/university.png"
+                        class="card-img-top item"
+                        alt="..."
+                      />
+                          <p class="mb-0 my-2">University/Jobs</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <video
+                _ngcontent-serverapp-c57=""
+                autoplay=""
+                muted=""
+                loop=""
+                oncanplay="this.play()"
+                onloadedmetadata="this.muted = true"
+                poster="/assets/landing-page/hero.png"
+                style="max-height: 24.5em"
+              >
+                <source
+                  _ngcontent-serverapp-c57=""
+                  src="https://10minuteschool.com/assets/landing-page/hero-video.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
